@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+header, footer{
+    padding: 5px;
+    position: absolute;
+    top: 0%;
+    background: rgb(22, 21, 21);
+}
+.footer{
+    position: absolute;
+    color: green;
+    bottom: 0%;
+    display: none;
+}
+span, button{
+    margin-left: 15px;
+}
+h1,span, .memory-header, button{ 
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+    color: white;
+}
+button{
+    cursor: pointer;
+    border-radius: 2px;
+    background: yellow;
+    border: 1px solid grey;
+    color: black;
+    outline: none;
+}
+#reset:hover{
+	background-color: #4caf50;
+	color: white; 
+}
+#reset:active{
+	box-shadow: none;
+}
+
+.memory-game{
+    background: rgba(116, 116, 145, 0.8);
+    width: 360px;
+    height: 360px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    perspective: 1000px;
+    box-shadow: 10px 10px 5px #b4bdbd;
+}
+.memory-card{
+    width: calc(25% - 10px);
+    height: calc(25% - 10px);
+    margin: 5px;
+    position: relative;
+    transform: scale(1);
+    transform-style: preserve-3d;
+    transition: transform .5s;
+}
+.memory-card :active{
+    transform: scole(.97);
+    transition: transform .2s;
+}
+.memory-card.flip{
+    transform: rotateY(180deg);
+}
+.font-face,
+.back-face{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    border-radius: 5px;
+    border: 2px solid rgb(61, 58, 58);
+    cursor: pointer;
+    backface-visibility: hidden;
+}
+.font-face{
+    transform: rotateX(180deg);
+}
