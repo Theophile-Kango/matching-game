@@ -3,90 +3,93 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
     <title>Mapping Game</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
-        <h1>matching game</h1>
-        <div class="memory-header">
-            <span id="time">00 : 00</span>
-            <span id="moves">0</span> Move
-            <button id="reset">reset</button>
-    </header>
-    <section class="memory-game">
+    <div class="all-content">
+        <header>
+            <h1>matching game</h1>
+            <div class="memory-header">
+                <span id="time">00 : 00</span>
+                <span id="moves">0</span> Move(s)
+                <button id="reset">reset</button>
+        </header>
+        <section class="memory-game">
 
-        <div class="memory-card" data-frame = "blackcat">
-            <img class="font-face" src="img/blackcat.jpg" alt="blackcat" />
-            <img class="back-face" src="img/hounted.jpg" alt="home" />
-        </div>
-        <div class="memory-card" data-frame = "blackcat">
-            <img class="font-face" src="img/blackcat.jpg" alt="blackcat" />
-            <img class="back-face" src="img/hounted.jpg" alt="home" />
-        </div>
-        <div class="memory-card" data-frame = "broom">
-            <img class="font-face" src="img/broom.jpg" alt="broom" />
-            <img class="back-face" src="img/hounted.jpg" alt="home" />
-        </div>
-        <div class="memory-card" data-frame = "broom">
-            <img class="font-face" src="img/broom.jpg" alt="broom" />
-            <img class="back-face" src="img/hounted.jpg" alt="home" />
-        </div>
-        <div class="memory-card" data-frame = "cauldron">
-            <img class="font-face" src="img/cauldron.jpg" alt="cauldron" />
-            <img class="back-face" src="img/hounted.jpg" alt="home" />
-        </div>
-        <div class="memory-card" data-frame = "cauldron">
-            <img class="font-face" src="img/cauldron.jpg" alt="cauldron" />
-            <img class="back-face" src="img/hounted.jpg" alt="home" />
-        </div>
-        <div class="memory-card" data-frame = "monsters">
-            <img class="font-face" src="img/monsters.jpg" alt="monsters" />
-            <img class="back-face" src="img/hounted.jpg" alt="home" />
-        </div>
-        <div class="memory-card" data-frame = "monsters">
-            <img class="font-face" src="img/monsters.jpg" alt="monsters" />
-            <img class="back-face" src="img/hounted.jpg" alt="home" />
-        </div>
-        <div class="memory-card" data-frame = "pumpik">
-            <img class="font-face" src="img/pumpik.jpg" alt="pumpik" />
-            <img class="back-face" src="img/hounted.jpg" alt="home" />
-        </div>
-        <div class="memory-card" data-frame = "pumpik">
-            <img class="font-face" src="img/pumpik.jpg" alt="pumpik" />
-            <img class="back-face" src="img/hounted.jpg" alt="home" />
-        </div>
-        <div class="memory-card" data-frame = "sweets">
-            <img class="font-face" src="img/sweets.jpg" alt="sweets" />
-            <img class="back-face" src="img/hounted.jpg" alt="home" />
-        </div>
-        <div class="memory-card" data-frame = "sweets">
-            <img class="font-face" src="img/sweets.jpg" alt="sweets" />
-            <img class="back-face" src="img/hounted.jpg" alt="home" />
-        </div>
-        <div class="memory-card" data-frame = "witch-hart">
-            <img class="font-face" src="img/witch-hart.jpg" alt="witch-hart" />
-            <img class="back-face" src="img/hounted.jpg" alt="home" />
-        </div>
-        <div class="memory-card" data-frame = "witch-hart">
-            <img class="font-face" src="img/witch-hart.jpg" alt="witch-hart" />
-            <img class="back-face" src="img/hounted.jpg" alt="home" />
-        </div>
-        <div class="memory-card" data-frame = "witch">
-            <img class="font-face" src="img/witch.jpg" alt="witch" />
-            <img class="back-face" src="img/hounted.jpg" alt="home" />
-        </div>
-        <div class="memory-card" data-frame = "witch">
-            <img class="font-face" src="img/witch.jpg" alt="witch" />
-            <img class="back-face" src="img/hounted.jpg" alt="home" />
-        </div>
-    </section>
-  
+            <div class="memory-card" data-frame="blackcat">
+                <img class="font-face" src="img/blackcat.jpg" alt="blackcat" />
+                <img class="back-face" src="img/hounted.jpg" alt="home" />
+            </div>
+            <div class="memory-card" data-frame="blackcat">
+                <img class="font-face" src="img/blackcat.jpg" alt="blackcat" />
+                <img class="back-face" src="img/hounted.jpg" alt="home" />
+            </div>
+            <div class="memory-card" data-frame="broom">
+                <img class="font-face" src="img/broom.jpg" alt="broom" />
+                <img class="back-face" src="img/hounted.jpg" alt="home" />
+            </div>
+            <div class="memory-card" data-frame="broom">
+                <img class="font-face" src="img/broom.jpg" alt="broom" />
+                <img class="back-face" src="img/hounted.jpg" alt="home" />
+            </div>
+            <div class="memory-card" data-frame="cauldron">
+                <img class="font-face" src="img/cauldron.jpg" alt="cauldron" />
+                <img class="back-face" src="img/hounted.jpg" alt="home" />
+            </div>
+            <div class="memory-card" data-frame="cauldron">
+                <img class="font-face" src="img/cauldron.jpg" alt="cauldron" />
+                <img class="back-face" src="img/hounted.jpg" alt="home" />
+            </div>
+            <div class="memory-card" data-frame="monsters">
+                <img class="font-face" src="img/monsters.jpg" alt="monsters" />
+                <img class="back-face" src="img/hounted.jpg" alt="home" />
+            </div>
+            <div class="memory-card" data-frame="monsters">
+                <img class="font-face" src="img/monsters.jpg" alt="monsters" />
+                <img class="back-face" src="img/hounted.jpg" alt="home" />
+            </div>
+            <div class="memory-card" data-frame="pumpik">
+                <img class="font-face" src="img/pumpik.jpg" alt="pumpik" />
+                <img class="back-face" src="img/hounted.jpg" alt="home" />
+            </div>
+            <div class="memory-card" data-frame="pumpik">
+                <img class="font-face" src="img/pumpik.jpg" alt="pumpik" />
+                <img class="back-face" src="img/hounted.jpg" alt="home" />
+            </div>
+            <div class="memory-card" data-frame="sweets">
+                <img class="font-face" src="img/sweets.jpg" alt="sweets" />
+                <img class="back-face" src="img/hounted.jpg" alt="home" />
+            </div>
+            <div class="memory-card" data-frame="sweets">
+                <img class="font-face" src="img/sweets.jpg" alt="sweets" />
+                <img class="back-face" src="img/hounted.jpg" alt="home" />
+            </div>
+            <div class="memory-card" data-frame="witch-hart">
+                <img class="font-face" src="img/witch-hart.jpg" alt="witch-hart" />
+                <img class="back-face" src="img/hounted.jpg" alt="home" />
+            </div>
+            <div class="memory-card" data-frame="witch-hart">
+                <img class="font-face" src="img/witch-hart.jpg" alt="witch-hart" />
+                <img class="back-face" src="img/hounted.jpg" alt="home" />
+            </div>
+            <div class="memory-card" data-frame="witch">
+                <img class="font-face" src="img/witch.jpg" alt="witch" />
+                <img class="back-face" src="img/hounted.jpg" alt="home" />
+            </div>
+            <div class="memory-card" data-frame="witch">
+                <img class="font-face" src="img/witch.jpg" alt="witch" />
+                <img class="back-face" src="img/hounted.jpg" alt="home" />
+            </div>
+        </section>
+
         <div class="footer">
             You win, Congretulations !!!
         </div>
-   
+    </div>
+
     <script src="script.js"></script>
 </body>
 
