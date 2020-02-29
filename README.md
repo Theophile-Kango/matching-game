@@ -1,26 +1,41 @@
+# Matching game
 
-Title : MATCHING GAME
+# What it does
+An amazing game that the player has to match images
 
-Overview
+## Built With
+- HTML
+- CSS
+- JavaScript
+#### and deployed to Github
 
-This project is one among chingu pre-work session in voyage 12
+## Live Demo
 
-It very helpful for those who want to level up their memory because as I made it, it gives you the chance to remember someting in a brief delay
+[Live Demo](https://https://theophile-kango.github.io/mapping-game/)
 
-Features 
-   
-This game is a browser-based card matching game that presents the player with cards arranged in a 4x4 grid.
+## Getting Started
 
-The back of each card is a common design shared by all cards. The front contains a distinctive symbol shared by one pair of cards in the deck, thus there are 8 unique symbols shared by 8 pairs of cards in the deck.
+To get a local copy up and running follow these simple example steps.
+- Clone the project unto your local machine
+- `cd` into the project directory
+- Open up index.html in your browser to view the project
 
-The objective of the Matching Game is for the player to turn over pairs of matching cards across eight successive turns. In a turn if the player selects two cards whose symbols match those cards, along with those successfully matched in previous turns, will remain up. However, if the player chooses two cards with different symbols they will both be flipped over, obscuring their symbols.
+## Author
 
-A user must make only 20 moves and one move corresponds in two clicks, and there is a count down of 1 minutes and 30 seconds. If a user makes more than 20 moves or depasses the delay the page will automaticly reload.
+Github:  @Theophile-Kango
+Twitter: @Theophadh
+Linkedin: https://www.linkedin.com/in/theophile-kango-b6b580194/
 
-The game ends when all eight pairs of matching cards have been revealed. When this occurs a message should be displayed to let the user know they have won the game.
+## 🤝 Contributing
 
-A 'New Game' Button gives the player the means to reset the game board.
+Feel free to check the [issues page](https://github.com/Theophile-Kango/mapping-game/issues).
 
-Running project
+## Show your support
 
-To run the project you have to open the folder and scroll down into index.html, just open it
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is licensed by Chingu.
+
+### Enjoy!
