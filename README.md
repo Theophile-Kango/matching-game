@@ -11,7 +11,7 @@ An amazing game that the player has to match images
 
 ## Live Demo
 
-[Live Demo](https://theophile-kango.github.io/mapping-game/)
+[Live Demo](https://theophile-kango.github.io/matching-game/)
 
 ## Getting Started
 
@@ -22,9 +22,9 @@ To get a local copy up and running follow these simple example steps.
 
 ## Author
 
-Github:  @Theophile-Kango
-Twitter: @Theophadh
-Linkedin: https://www.linkedin.com/in/theophile-kango-b6b580194/
+[Github](https://github.com/Theophile-Kango)
+[Twitter](https://twitter.com/Theophadh)
+[Linkedin](https://www.linkedin.com/in/theophile-kango-b6b580194/)
 
 ## 🤝 Contributing
 
