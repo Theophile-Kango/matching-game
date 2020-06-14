@@ -2,8 +2,20 @@
 
 # Matching game
 
-# What it does
-This is a simple game in which the player has to match images
+## What it does
+In this game the player has to match similar pictures. 
+
+# Rules and how to play it
+
+- When you open the app, the count down starts from 1min:30s
+- The player has 1 min 30s and 20 clicks to find all the matching images
+- Break one of the conditions above, the page will automatically reload
+- If the player finds the images and their matching the congratulation message is displayed
+
+
+## Screenshot
+
+![Home page](img/matching-game.png)
 
 ## Built With
 - HTML
