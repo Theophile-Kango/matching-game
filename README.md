@@ -1,7 +1,7 @@
 # Matching game
 
 # What it does
-An amazing game that the player has to match images
+This is a simple game in which the player has to match images
 
 ## Built With
 - HTML
