@@ -1,3 +1,5 @@
+[![hire-badge](https://img.shields.io/badge/Consult%20/%20Hire%20Theophile-Click%20to%20Contact-brightgreen)](mailto:fadhili.kango@gmail.com ) [![Twitter Follow](https://img.shields.io/twitter/follow/Theophadh?label=Follow%20Theophile%20on%20Twitter&style=social)](https://twitter.com/Theophadh)
+
 # Matching game
 
 # What it does
@@ -22,9 +24,11 @@ To get a local copy up and running follow these simple example steps.
 
 ## Author
 
-[Github](https://github.com/Theophile-Kango)
-[Twitter](https://twitter.com/Theophadh)
-[Linkedin](https://www.linkedin.com/in/theophile-kango-b6b580194/)
+👤  **Theophile Kango**
+
+- Github: [@githubhandle](https://github.com/Theophile-Kango)
+- Twitter: [@twitterhandle](https://twitter.com/Theophadh)
+- Linkedin: [linkedin](https://www.linkedin.com/in/theophile-kango)
 
 ## 🤝 Contributing
 
